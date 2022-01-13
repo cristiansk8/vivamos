@@ -1,0 +1,47 @@
+.servicios{
+    header{
+        h2{
+            font-family: Myriadpro semibold;
+        }
+    }
+    .row{
+        .card{
+            .card-body{
+                margin-top: 5px;
+            }
+        }
+    }
+}
+#about{
+    .container-fluid{
+        .row{
+            .col-md-6{
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+
+            }
+            .info{
+                padding-top: 10%;
+                @include from(l){
+                    padding-top: 15%;
+
+                }
+            }
+            .image{
+                background-image: url(http://cristian.toryskateshop.com/wp-content/uploads/2021/11/fondo.about_.jpg);
+                background-size: cover;
+                background-position: bottom;
+            }
+        }
+    }
+}
+#formulario{
+    background-color: #e6e6e6;
+}
+#destacado-home{
+    padding: 10px 60px;
+   background-color: black;
+   color: #fff;
+}

@@ -1,0 +1,55 @@
+.main-slider {
+    position: relative;
+    &__item {
+        position: relative;
+    }
+    &__image {
+        img {
+            width: 100%;
+        }
+    }
+    &__caption {
+        width: 100%;
+        left: 2%;
+        position: absolute;
+        top: 51%;
+        transform: translateY(-50%);
+        left: 2%;
+        text-align: center;
+        @include from(l) {
+            text-align: center;
+            @include center('vertical');
+        }
+        h1 {
+            font-family: 'Myriadpro semibold';
+            color: $white;
+            font-size: rem(50px);
+            @include from(l) {
+                font-size: rem(110px);
+            }
+        }
+        h3 {
+            color: $white;
+        }
+        p {
+            @include from(l) {
+                font-size: rem(40px);
+            }
+            font-size: rem(35px);
+            color: $white;
+        }
+        a {
+            font-family: 'Myriadpro semibold';
+            padding: rem(20px) rem(30px);
+            background-color: #cb1db7;
+            color: $white;
+            border-radius: 62px;
+            text-decoration: none;
+            &:hover {
+                background-color: $white;
+                color: #cb1db7;
+            }
+        }
+    }
+}
+

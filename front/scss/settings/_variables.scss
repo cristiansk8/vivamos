@@ -1,0 +1,37 @@
+//Variables genericas
+
+// Colors
+$white: #ffffff;
+$black: #000000;
+// Brand Colors
+$grey: #575757;
+$grey-lt: #D8D8D8;
+$red: #e1251b;
+$brand-white: #f7f7f7;
+$tangit: #e3348a;
+$pattex: #ffd147;
+$sista: #00b397;
+$loctite: #EB0000;
+$loctite-blue: #054C93;
+$loctite-blue-2: #0D54D0;
+// Brand Colors teabrazo
+$gray-dark:#707070;
+$gray-lt:#dfdfdf;
+$green: #4fad3c;
+$blue:#058ac7;
+$yellow:#fbc01d;
+$fondo1: #fff8e6;
+$fondo2: #dfdfdf;
+$bluevivamos: #457B9D;
+$blueDark: #1D3557;
+// Fonts
+$rb: 'Roboto';
+$rl: 'Roboto Light';
+$rr: 'Roboto regular';
+// Media queries
+$breakpoints-min: ( 's': 576px, 'm': 768px, 'l': 992px, 'xl': 1470px, );
+$breakpoints-max: ('xs': map-get($breakpoints-min, 's') - 1px, 's': map-get($breakpoints-min, 'm') - 1px, 'm': map-get($breakpoints-min, 'l') - 1px, 'l': map-get($breakpoints-min, 'xl') - 1px, );
+$container-max-widths: ('s': 540px, 'm': 720px, 'l': 960px, 'xl': 1320px, );
+
+//Varaibles especificas del desarrollo
+//En esta seccion se colocoran los colores y fuentes que se utilizar para la pagina que se desarrrollar

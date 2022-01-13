@@ -1,0 +1,8 @@
+Para compilar SCSS se usa el siguiente comando
+
+pararse en la carpeta front
+
+npm run dev 
+
+
+Al guardar automaticamente compila al estar ejecutando el comando anterior

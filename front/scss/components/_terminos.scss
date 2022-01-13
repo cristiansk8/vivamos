@@ -1,0 +1,53 @@
+.post-type-archive-terminos{
+  article{
+    h2{
+      color: $bluevivamos
+    }
+  }
+}
+.lista{
+  background: #a8dadc;
+  border-radius: 20px;
+  padding: 20px;
+  .item{
+    a{
+      color: #1d3557;
+      font-size: rem(25px);
+    }
+  }
+}
+.nosotros{
+  text-align: center;
+  padding: 20px;
+  @include from(l){
+    padding: 80px 150px;
+  }
+}
+.lista-docs{
+    background: #a8dadc;
+    border-radius: 20px;
+    padding: 20px;
+    .news__item{
+      .news__caption{
+        p{
+          color: $bluevivamos;
+        }
+      }
+    }
+}
+
+.documentos{
+  .padding-contendor-elemetos{
+    .row{
+      .col-xs-12{
+        .news__item{
+          .info{
+            p{
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

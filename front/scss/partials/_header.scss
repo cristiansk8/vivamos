@@ -1,0 +1,60 @@
+.menu-main-menu-container {
+    .navbar-nav {
+        width: 100%;
+        background: $bluevivamos;
+        height: auto;
+        @include from(l) {
+            height: 50px;
+        }
+        .active {
+          background: $blueDark !important;
+          height: 50px;
+          border-radius: 0px 25px 25px 0px;
+        }
+
+        li {
+          float: right !important;
+            @include from(l) {
+                width: auto;
+            }
+            border-radius: 0px 25px 25px 0px;
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            color: $black !important;
+            a {
+                color: #F1FAEE;
+                font-family: $rl;
+                font-size: rem(24px);
+                &:hover {
+                  border-radius: 0px 25px 25px 0px;
+                  background: $blueDark;
+                  height: 50px;
+                }
+            }
+
+        }
+    }
+}
+
+.navbar-collapse {
+    width: 100%;
+    ul {
+        .open {
+            a {
+                background-color: $gray-dark;
+            }
+        }
+    }
+}
+
+.navbar-toggle {
+    background-color: $blue;
+    .icon-bar {
+        background-color: $white;
+    }
+}
+
+.row-header {
+    background-color: $white;
+}

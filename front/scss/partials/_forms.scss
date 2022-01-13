@@ -1,0 +1,56 @@
+.form-banner {
+    .form-info {
+        min-height: 64rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 60rem;
+        h2 {
+            margin-top: -30px;
+            margin-left: 40px;
+            background-color: $blue;
+            color: $white;
+            width: fit-content;
+            padding: 10px 20px;
+        }
+        .info-text {
+            margin-top: 22%;
+            color: $white;
+            padding: 0 20%;
+            p {
+                font-size: rem(35px);
+                color: $white
+            }
+        }
+    }
+    .cifras-banner-form {
+        background-color: $gray-lt;
+        min-height: 64rem !important;
+    }
+}
+
+#form-docs {
+    min-height: 64rem;
+    .form-info {
+        min-height: 60rem;
+        background-color: $gray-lt;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 60rem;
+        h2 {
+            margin-top: -30px;
+            margin-left: 40px;
+            background-color: $green;
+            color: $white;
+            width: fit-content;
+            padding: 10px 20px;
+        }
+        .info-text {
+            margin-top: 22%;
+            color: $white;
+            padding: 0 20%;
+            p {
+                font-size: rem(35px);
+            }
+        }
+    }
+}
